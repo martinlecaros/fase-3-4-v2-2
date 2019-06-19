@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=B612+Mono:400,400i,700,700i&display=swap');
+.text {
+    font-family: 'B612 Mono', monospace;
+    font-size: 14px;
+    color: #4a39e9;;
+    font-weight: 400;
+}
+.btn { 
+    background-color: #4a39e9; 
+    border: none; 
+    color: white; 
+    outline: none !important; 
+    box-shadow: none;
+}
+.btn:hover { 
+    background-color: rgb(211, 58, 58); 
+}
+.btn:focus {
+    outline: none !important; box-shadow: none;
+}
+.btnacdc {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.btn.disabled, .btn:disabled {
+    opacity: .25;
+    text-decoration: line-through;
+}
+.btn:hover {
+    color: white;
+}
+#velocidad_id {
+    color: rgb(211, 58, 58); 
+}
